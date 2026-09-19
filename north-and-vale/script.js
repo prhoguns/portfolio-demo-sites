@@ -1,0 +1,1 @@
+const form=document.querySelector('form');form.addEventListener('submit',e=>{e.preventDefault();form.querySelector('.form-note').textContent='Thanks. Our office will be in touch within one business day.';form.reset()});document.querySelector('.nav-toggle').addEventListener('click',()=>document.querySelector('nav').classList.toggle('open'));

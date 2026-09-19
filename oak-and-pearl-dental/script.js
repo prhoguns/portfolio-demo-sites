@@ -1,0 +1,1 @@
+const form=document.querySelector('form');form.addEventListener('submit',e=>{e.preventDefault();form.querySelector('.form-note').textContent='Thanks. We will call you shortly with a few appointment options.';form.reset()});document.querySelector('.menu').addEventListener('click',()=>document.querySelector('nav').classList.toggle('open'));
